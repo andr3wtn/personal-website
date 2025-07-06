@@ -6,7 +6,7 @@ import Contact from "./components/Contact"
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gradient-to-r from-[#e3f2fd] to-[#a7ffeb]">
       <Landing />
 
       <About />
