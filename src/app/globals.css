@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #e3f2fd;
   --foreground: #171717;
 }
 
@@ -17,6 +17,20 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-geist-sans), 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #38bdf8; /* sky blue */
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #7c3aed; /* light violet */
 }
 
 body {
